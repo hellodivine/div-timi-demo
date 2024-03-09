@@ -1,6 +1,9 @@
 import courseImag1 from "./assets/img/courses/course.svg";
 import courseImag2 from "./assets/img/courses/course2.svg";
 import courseImag3 from "./assets/img/courses/course3.svg";
+import courseImag4 from "./assets/img/courses/course4.svg";
+import courseImag5 from "./assets/img/courses/course5.svg";
+import courseImag6 from "./assets/img/courses/course6.svg";
 
 import avatar from "./assets/img/courses/Avatar.svg"
 import avatar2 from "./assets/img/courses/Avatar2.svg"
@@ -51,6 +54,51 @@ const courses = [
     name: "Idris mohammed",
     enrolledNo: "18 Enrolled",
     price: "N400.000",
+    avatar: avatar3
+  },
+  {
+    id: 4,
+    title: "Design",
+    course: "Figma UI UX Design..",
+    paragraph:
+      "Use Figma to get a job in UI Design, User Interface, User Experience design.",
+    image: courseImag4,
+    imageAlt: "Figma",
+    rating: "4.3",
+    value: "16,325",
+    name: "Olorunshola Anuoluwapo",
+    enrolledNo: "30 Enrolled",
+    price: "$17.84",
+    avatar: avatar3
+  },
+  {
+    id: 5,
+    title: "Data",
+    course: "Learn With Roqubat",
+    paragraph:
+      "Learn how to make data-driven decisions, optimize process and gain a competitive edge.",
+    image: courseImag5,
+    imageAlt: "Data",
+    rating: "3.9",
+    value: "22",
+    name: "Roqubat",
+    enrolledNo: "20 Enrolled",
+    price: "$8.99",
+    avatar: avatar3
+  },
+  {
+    id: 6,
+    title: "Development",
+    course: "HTML/CSS",
+    paragraph:
+      "Learn how to apply code, starting with the basics of html and css for website designs.",
+    image: courseImag6,
+    imageAlt: "Code",
+    rating: "4.2",
+    value: "30",
+    name: "Idrs Mohammed",
+    enrolledNo: "50 Enrolled",
+    price: "$11.70",
     avatar: avatar3
   },
 ];

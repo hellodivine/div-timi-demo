@@ -10,6 +10,8 @@ const Courses = () => {
       <SectionCard />
       <br />
       <SectionCard />
+      <br />
+      <SectionCard />
     </div>
   );
 };
