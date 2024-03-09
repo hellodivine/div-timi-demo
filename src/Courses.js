@@ -67,53 +67,107 @@ const courseDetails = [
   { 
     header: {
       section: "Explore Courses",
-      title: "Development Courses",
+      title: "Design Courses",
       text: "These courses are the talk of the town, it might just be the one for you",
     },
     courses: [
       {
-        id: 1,
-        title: "Development",
-        course: "Frontend Development",
+        id: 4,
+        title: "Design",
+        course: "Figma UI UX Design..",
         paragraph:
-          "Dive into the world of user interfaces and experience. Equips learners with the skills to create visually appealing and interactive.",
-        image: courseImag1,
-        imageAlt: "Coding",
+          "Use Figma to get a job in UI Design, User Interface, User Experience design.",
+        image: courseImag4,
+        imageAlt: "Figma",
         rating: "4.3",
-        value: "16",
+        value: "16,325",
         name: "Olorunshola Anuoluwapo",
-        enrolledNo: "5 Enrolled",
-        price: "N250.000",
+        enrolledNo: "30 Enrolled",
+        price: "$17.84",
         avatar: avatar
       },
       {
-        id: 2,
-        title: "Development",
-        course: "Backend Development",
+        id: 5,
+        title: "Data",
+        course: "Learn With Roqubat",
         paragraph:
-          "Explore the backend of web development, focusing on server-side scripting and database management.",
-        image: courseImag2,
+          "Learn how to make data-driven decisions, optimize process and gain a competitive edge",
+        image: courseImag5,
         imageAlt: "Coding",
         rating: "3.9",
         value: "22",
         name: "Roqubat",
-        enrolledNo: "8 Enrolled",
-        price: "N250.000",
+        enrolledNo: "20 Enrolled",
+        price: "$8.99",
         avatar: avatar2
       },
       {
-        id: 3,
+        id: 6,
         title: "Development",
-        course: "Full-Stack Development",
+        course: "HTML/CSS",
         paragraph:
-          "A comprehensive course covering both frontend and backend development, providing a holistic understanding of web development",
-        image: courseImag3,
+          "Learn how to apply code, starting with the basics of html and css for website designs.",
+        image: courseImag6,
         imageAlt: "Coding",
-        rating: "4.3",
-        value: "16",
+        rating: "4.2",
+        value: "30",
         name: "Idris mohammed",
-        enrolledNo: "18 Enrolled",
-        price: "N400.000",
+        enrolledNo: "50 Enrolled",
+        price: "$11.70",
+        avatar: avatar3
+      },
+    ]
+  },
+  { 
+    header: {
+      section: "Explore Courses",
+      title: "Data Analytics Courses",
+      text: "These courses are the talk of the town, it might just be the one for you",
+    },
+    courses: [
+      {
+        id: 4,
+        title: "Design",
+        course: "Figma UI UX Design..",
+        paragraph:
+          "Use Figma to get a job in UI Design, User Interface, User Experience design.",
+        image: courseImag4,
+        imageAlt: "Figma",
+        rating: "4.3",
+        value: "16,325",
+        name: "Olorunshola Anuoluwapo",
+        enrolledNo: "30 Enrolled",
+        price: "$17.84",
+        avatar: avatar
+      },
+      {
+        id: 5,
+        title: "Data",
+        course: "Learn With Roqubat",
+        paragraph:
+          "Learn how to make data-driven decisions, optimize process and gain a competitive edge",
+        image: courseImag5,
+        imageAlt: "Coding",
+        rating: "3.9",
+        value: "22",
+        name: "Roqubat",
+        enrolledNo: "20 Enrolled",
+        price: "$8.99",
+        avatar: avatar2
+      },
+      {
+        id: 6,
+        title: "Development",
+        course: "HTML/CSS",
+        paragraph:
+          "Learn how to apply code, starting with the basics of html and css for website designs.",
+        image: courseImag6,
+        imageAlt: "Coding",
+        rating: "4.2",
+        value: "30",
+        name: "Idris mohammed",
+        enrolledNo: "50 Enrolled",
+        price: "$11.70",
         avatar: avatar3
       },
     ]
