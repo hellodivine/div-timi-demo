@@ -1,26 +1,20 @@
 import CourseHeader from "./courseHeader";
 import CourseCard from "./courseCard";
 
-const courseDetails = [
-  {
-    section: "Explore Courses",
-    title: "Development Courses",
-    text: "These courses are the talk of the town, it might just be the one for you",
-  },
-];
 
-const [header] = courseDetails;
-
-const sectionCard = () => {
+{/* added some prop drilling so i could reuse your components */}
+const sectionCard = ({spanTitle,title,paragraph,courses}) => {
   return (
     <div className="flex flex-col">
       <CourseHeader
-        spanTitle={header.section}
-        title={header.title}
-        paragraph={header.text}
+        spanTitle={spanTitle}
+        title={title}
+        paragraph={paragraph}
       />
 
-      <CourseCard />
+      <CourseCard
+        courses={courses}
+      />
     </div>
   );
 };

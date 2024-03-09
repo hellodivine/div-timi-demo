@@ -1,13 +1,13 @@
 import Card from "./Cards";
-import Courses from "../../../Courses";
+// import Courses from "../../../Courses";
 import Slider from "./Slider";
 
-const courseCard = () => {
+const courseCard = ({courses}) => {
   return (
     <div className="flex items-center place-content-center mb-11">
       <div>
         <div className="p-12 pb-0 grid  grid-cols-1 lg:grid-cols-2 md:grid-cols-3 space-x-3 ">
-          {Courses.map((course) => {
+          {courses.map((course) => {
             return (
               <Card
                 key={course.id}
